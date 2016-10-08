@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.leanhealhabits.workouts.workouts.MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textAllCaps="true"
+            android:paddingBottom="16dp"
+            android:text="Warm-UP (Optional)" />
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:context="com.leanhealhabits.workouts.workouts.PhaseOneLB1Activity">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:context="com.leanhealhabits.workouts.workouts.MainActivity">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textAllCaps="true"
+                    android:paddingBottom="16dp"
+                    android:text="Group 1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textAllCaps="false"
+                    android:paddingBottom="16dp"
+                    android:text="Mildly to moderately challenging work \n
+                    preferably outdoors" />
+
+            </LinearLayout>
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentRight="true"
+                tools:context="com.leanhealhabits.workouts.workouts.MainActivity">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:paddingBottom="8dp"
+                    android:textAllCaps="false"
+                    android:text="Week  1\n do 20 minutes" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textAllCaps="false"
+                    android:paddingBottom="8dp"
+                    android:text="Week 2\n do 20 minutes" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textAllCaps="false"
+                    android:paddingBottom="8dp"
+                    android:text="Week 3\n do 20 minutes" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textAllCaps="false"
+                    android:paddingBottom="8dp"
+                    android:text="Week 4\n do 20 minutes" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textAllCaps="false"
+                    android:paddingBottom="8dp"
+                    android:text="Week 5\n do 25 minutes" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textAllCaps="false"
+                    android:paddingBottom="8dp"
+                    android:text="Week 6\n do 25 minutes" />
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:paddingBottom="8dp"
+            android:text="Note:\n This activity is intended to be relatively easy.
+            Your goal should be to find an activity (outside of the gym) that will provide a change of pace
+            and leave you feeling better than when you started." />
+    </LinearLayout>
+
+</ScrollView>
+

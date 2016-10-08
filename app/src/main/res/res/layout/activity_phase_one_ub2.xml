@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context="com.leanhealhabits.workouts.workouts.MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textAllCaps="true"
+            android:paddingBottom="16dp"
+            android:text="Warm-UP" />
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:context="com.leanhealhabits.workouts.workouts.PhaseOneLB1Activity">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:context="com.leanhealhabits.workouts.workouts.MainActivity">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textAllCaps="true"
+                    android:paddingBottom="16dp"
+                    android:text="Group 1" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textAllCaps="false"
+                    android:paddingBottom="16dp"
+                    android:text="A) Three point \n dumbbell row (15 reps/side)" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textAllCaps="false"
+                    android:paddingBottom="16dp"
+                    android:text="Rest 30 Seconds" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textAllCaps="false"
+                    android:paddingBottom="16dp"
+                    android:text="B) 1/2 kneeling medicine \n ball chop(10 reps/side)" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textAllCaps="false"
+                    android:paddingBottom="16dp"
+                    android:text="Rest 30 Seconds, repeat" />
+            </LinearLayout>
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentRight="true"
+                tools:context="com.leanhealhabits.workouts.workouts.MainActivity">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:paddingBottom="8dp"
+                    android:textAllCaps="false"
+                    android:text="Week  1\ndo 1 round group 1" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:context="com.leanhealhabits.workouts.workouts.PhaseOneLB1Activity">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:context="com.leanhealhabits.workouts.workouts.MainActivity">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textAllCaps="true"
+                    android:paddingBottom="16dp"
+                    android:text="Group 2" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textAllCaps="false"
+                    android:paddingBottom="16dp"
+                    android:text="A) Dumbell bench press \n (15 reps)" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textAllCaps="false"
+                    android:paddingBottom="16dp"
+                    android:text="Rest 30 Seconds" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textAllCaps="false"
+                    android:paddingBottom="16dp"
+                    android:text="B) Side Plank (hold 25 sec/side)" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textAllCaps="false"
+                    android:paddingBottom="16dp"
+                    android:text="Rest 30 Seconds, repeat" />
+            </LinearLayout>
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentRight="true"
+                tools:context="com.leanhealhabits.workouts.workouts.MainActivity">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:paddingBottom="8dp"
+                    android:textAllCaps="false"
+                    android:text="Week  1\ndo 1 round group 2" />
+
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin"
+            tools:context="com.leanhealhabits.workouts.workouts.PhaseOneLB1Activity">
+
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                tools:context="com.leanhealhabits.workouts.workouts.MainActivity">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textAllCaps="true"
+                    android:paddingBottom="16dp"
+                    android:text="Group 3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textAllCaps="false"
+                    android:paddingBottom="16dp"
+                    android:text="A) 1/2 kneeling cable row  \n (15 reps)" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textAllCaps="false"
+                    android:paddingBottom="16dp"
+                    android:text="Rest 30 Seconds" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textAllCaps="false"
+                    android:paddingBottom="16dp"
+                    android:text="B) Straight-arm band pull-down\n iso hold (hold 30 sec)" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:textAllCaps="false"
+                    android:paddingBottom="16dp"
+                    android:text="Rest 30 Seconds, repeat" />
+            </LinearLayout>
+            <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentRight="true"
+                tools:context="com.leanhealhabits.workouts.workouts.MainActivity">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="16sp"
+                    android:paddingBottom="8dp"
+                    android:textAllCaps="false"
+                    android:text="Week  1\ndo 1 round group 3" />
+
+            </LinearLayout>
+
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:textAllCaps="false"
+            android:paddingBottom="8dp"
+            android:text="Note:\n Exercises in a group are to be performed one after another. In the case of multiple rounds, the grouping will be repeated in order. For example, someone doing two rounds would perform Exercise A, Exercise B, and then go through Exercises A and B again before oving onto the next grouping. \n Also, during the first 2 weeks of the program we've noted that you should be practicing these workouts. That basically means that there's no pressure to perform the exercise perfectly. Rather, just get in there and practice doing them as well as you can. And have fun. After a few practice sessions you'll have them mastered and you'll be ready for a higher intensity." />
+    </LinearLayout>
+
+</ScrollView>
+
